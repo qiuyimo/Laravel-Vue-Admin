@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/test-container', '\App\Http\Controllers\Container\TestContainerController@test');
